@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="김지민의 개인 프로필과 프로젝트를 소개합니다." />
+    <title>김지민 | Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="홈으로 이동">JM<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="main-menu"><span></span><span></span><span></span></button>
+        <nav id="main-menu" class="main-nav" aria-label="주요 메뉴">
+          <a href="about.html">소개</a><a href="skills.html">기술</a><a href="projects.html">프로젝트</a>
+          <button class="theme-toggle" type="button" aria-label="다크 모드 전환">☾</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">FRONTEND DEVELOPER</p>
+            <h1>생각을 <em>경험</em>으로<br />만드는 김지민입니다.</h1>
+            <p class="lead">사람이 편하게 사용할 수 있는 화면을 고민하고, 아이디어를 단단한 웹 경험으로 구현합니다.</p>
+            <div class="hero-actions"><a class="button button-primary" href="#projects">프로젝트 보기</a><a class="button button-ghost" href="mailto:hello@example.com">메일 보내기</a></div>
+          </div>
+          <div class="profile-art" aria-label="김지민 프로필 이미지 영역" role="img">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="avatar"><img src="assets/images/fox.jpg" alt="프로필 이미지" /></div>
+            <span class="badge badge-star">✦</span>
+            <p class="profile-caption">아직은 미숙한 여우입니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container two-column">
+          <p class="section-label">01 / ABOUT ME</p>
+          <div><h2>작은 불편도 놓치지 않는<br />개발자입니다.</h2><p>사용자의 흐름을 이해하고, 보기 좋은 디자인이 실제로 잘 작동하도록 만드는 일을 좋아합니다. 협업에서는 명확한 소통과 꾸준한 기록을 중요하게 생각합니다.</p>
+            <dl class="facts"><div><dt>관심 분야</dt><dd>웹 접근성 · UX/UI · 인터랙션</dd></div><div><dt>강점</dt><dd>문제 해결 · 꼼꼼함 · 빠른 적응</dd></div><div><dt>현재 목표</dt><dd>더 많은 사람에게 닿는 서비스 만들기</dd></div></dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills"><div class="container"><p class="section-label">02 / SKILLS</p><h2>사용하는 기술</h2><div class="skill-grid">
+        <article><span class="skill-number">01</span><h3>Frontend</h3><p>HTML5, CSS3, JavaScript를 바탕으로 반응형 인터페이스를 만듭니다.</p><ul><li>HTML / CSS</li><li>JavaScript</li><li>Responsive Web</li></ul></article>
+        <article><span class="skill-number">02</span><h3>Design</h3><p>사용자 흐름을 바탕으로 일관된 화면과 컴포넌트를 설계합니다.</p><ul><li>Figma</li><li>UI / UX</li><li>Design System</li></ul></article>
+        <article><span class="skill-number">03</span><h3>Collaboration</h3><p>기록과 피드백을 통해 팀의 작업 흐름을 매끄럽게 만듭니다.</p><ul><li>Git / GitHub</li><li>Notion</li><li>Code Review</li></ul></article>
+      </div></div></section>
+
+      <section id="projects" class="section projects"><div class="container"><p class="section-label">03 / PROJECTS</p><div class="section-heading"><h2>직접 만든 프로젝트</h2><p>클릭하면 저장소 또는 서비스로 이동합니다.</p></div><div class="project-list">
+        <article class="project-card project-mint"><div class="project-visual"><span>01</span><div class="mockup"><b>W</b><i></i><i></i><i></i></div></div><div class="project-info"><p>WEB SERVICE · 2026</p><h3>오늘의 기록</h3><p>하루의 감정과 생각을 가볍게 기록하는 반응형 웹 서비스입니다.</p><ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub 보기 <span>↗</span></a></div></article>
+        <article class="project-card project-lilac"><div class="project-visual"><span>02</span><div class="mockup calendar"><b>PLAN</b><i></i><i></i><i></i><i></i></div></div><div class="project-info"><p>WEB APP · 2026</p><h3>모두의 플래너</h3><p>할 일을 직관적으로 정리하고 관리할 수 있는 개인 일정 관리 앱입니다.</p><ul><li>JavaScript</li><li>LocalStorage</li><li>UI Design</li></ul><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub 보기 <span>↗</span></a></div></article>
+      </div></div></section>
+
+      <section id="contact" class="section contact"><div class="container contact-inner"><p class="section-label">04 / CONTACT</p><h2>함께 재미있는 것을<br />만들어 볼까요?</h2><p>프로젝트, 협업, 또는 가벼운 대화도 언제든 환영합니다.</p><a class="contact-mail" href="mailto:hello@example.com">hello@example.com <span>↗</span></a><p class="phone-number">연락처는 <a href="tel:00000000000">000-0000-0000</a> 입니다.</p><div class="social-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a><a href="#" aria-label="블로그 링크를 추가하세요">Blog</a><a href="#" aria-label="LinkedIn 링크를 추가하세요">LinkedIn</a></div></div></section>
+    </main>
+    <footer><div class="container"><span>© 2026 Kim Jimin. All rights reserved.</span><a href="#home">Back to top ↑</a></div></footer>
+  </body>
+</html>
